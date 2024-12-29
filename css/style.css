@@ -10,15 +10,19 @@
     width: 1140px ;
     margin: auto;
 }
+.marquee-bg{
+    background-color: #10246a;
+    padding: 10px 0px;
+    color: #fff;
+}
 .nav-bg{
-    background-color: #89dee2    ;
-    border-bottom: 2px solid #3cd9ee;
+    background-color: #e7f0fc;
+    border-bottom: 5px solid #3cd9ee;
 }
 .nav img{
     width: 150px;
 }
 .nav{
-    background-color: #89dee2;
     padding: 25px 0px;
 }
 nav{
@@ -45,10 +49,12 @@ nav{
     color: #3cd9ee;
     transition: 1s all ease;
 }
-
+.slider{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .slider-bg{
-    background-image: url("../images/cover3.jpg");
-    height: 550px;
-    background-size: cover;
-    background-repeat: no-repeat;
+    padding: 50px 0px;
+    background-color: #edf2f8;
 }
