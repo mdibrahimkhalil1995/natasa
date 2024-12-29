@@ -16,7 +16,7 @@
     color: #fff;
 }
 .nav-bg{
-    padding: 10px 0px;
+    padding: 15px 0px;
     background-color: #e7f0fc;
     border-bottom: 5px solid #3cd9ee;
 }
@@ -42,9 +42,9 @@ nav{
 .nav ul li a{
     text-decoration: none;
     font-size: 18px;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 600;
-    color: #10246a;
+    font-family: Poppins;
+    font-weight: 500;
+    color: #586d8a;
 }
 .nav ul li a:hover{
     color: #3cd9ee;
@@ -59,6 +59,7 @@ nav{
 .slider-bg{
     background-color: #edf2f8;
 }
+
 .slider-content h3{
     font-size: 25px;
     font-weight: 600;
@@ -74,4 +75,15 @@ nav{
 }
 .slider-content p{
     margin-top: 25px;
+}
+.slider-button{
+    padding: 10px 25px;
+    margin-top: 25px;
+    border: none;
+    background-color: #3cd9ee;
+    border-radius: 5px;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 18px;
+    color: #fff;
 }
